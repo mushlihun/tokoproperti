@@ -1,5 +1,5 @@
-# Jual beli properti
-Manajemen jual beli properti
+# Property Shop System
+Property Shop System
 
 🚧 **frontend/** work in progress 🚧.
 
