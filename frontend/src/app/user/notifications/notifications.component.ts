@@ -26,19 +26,19 @@ export class NotificationsComponent implements OnInit {
       id: '03',
       title: 'Test@email.com have have sent you enquiries',
       type: 'enquiry',
-      date: new Date('2021/8/6')
+      date: new Date('2023/8/6')
     },
     {
       id: '04',
       title: 'Success, your Email have been verified!!!',
       type: 'app',
-      date: new Date('2021/8/5')
+      date: new Date('2023/8/5')
     },
     {
       id: '05',
       title: 'Welcome friend, Account created',
       type: 'app',
-      date: new Date('2021/8/5')
+      date: new Date('2023/8/5')
     }
   ];
   constructor() { }

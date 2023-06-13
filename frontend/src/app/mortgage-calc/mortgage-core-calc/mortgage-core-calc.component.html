@@ -19,7 +19,7 @@
                 (ionChange)="formatValue($event, 'price')"
               >
                 <ion-icon class="ion-margin-end" name="cash-outline"></ion-icon>
-                ₱
+                Rp
               </ion-input>
             </ion-item>
           </ion-col>
@@ -35,7 +35,7 @@
                 (ionChange)="formatValue($event, 'downPayment')"
               >
                 <ion-icon class="ion-margin-end" name="cash-outline"></ion-icon>
-                ₱
+                Rp
               </ion-input>
             </ion-item>
 
@@ -106,7 +106,7 @@
                 (ionChange)="formatValue($event, 'propertyTax')"
               >
                 <ion-icon class="ion-margin-end" name="cash-outline"></ion-icon>
-                ₱
+                Rp
               </ion-input>
             </ion-item>
           </ion-col>
@@ -123,7 +123,7 @@
                 (ionChange)="formatValue($event, 'insurance')"
               >
                 <ion-icon class="ion-margin-end" name="cash-outline"></ion-icon>
-                ₱
+                Rp
               </ion-input>
             </ion-item>
           </ion-col>
@@ -137,14 +137,14 @@
               [class]="simpleMode ? 'simple' : ''"
             >
               <ion-label position="stacked">Monthly</ion-label>
-              <ion-input [value]="monthlyPayment" readonly> ₱ </ion-input>
+              <ion-input [value]="monthlyPayment" readonly> Rp </ion-input>
             </ion-item>
           </ion-col>
 
           <ion-col size="12" sizeMd="6" *ngIf="!simpleMode">
             <ion-item lines="none" class="total-lifetime">
               <ion-label position="stacked">Total lifetime</ion-label>
-              <ion-input [value]="lifetimePayment" readonly> ₱ </ion-input>
+              <ion-input [value]="lifetimePayment" readonly> Rp </ion-input>
             </ion-item>
           </ion-col>
 
