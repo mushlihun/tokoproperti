@@ -109,3 +109,8 @@ dummy user:
 /properties/
 /enquiries/
 ```
+
+## ScreenShots
+<img src="https://github.com/mushlihun/tokoproperti/blob/master/ss/1.PNG" width="800"/>
+<img src="https://github.com/mushlihun/tokoproperti/blob/master/ss/2.PNG" width="800"/>
+<img src="https://github.com/mushlihun/tokoproperti/blob/master/ss/3.PNG" width="800"/>
